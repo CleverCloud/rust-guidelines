@@ -38,8 +38,8 @@ as exposed return types.
 
 ### Proper command-line parsing
 
-Always use `structopt-derive` for CLI tools (or `clap` if you're forced). Avoid directly using `std::Args`
-directly.
+Use `structopt-derive` for CLI tools, avoid `clap` if possible as it only provides unstructured data
+you still have to parse manually. Avoid directly using `std::Args` directly.
 
 ### Tokio
 
