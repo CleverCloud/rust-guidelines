@@ -4,6 +4,13 @@ Clever Cloud uses rust in a few projects, both open and closed-source.
 This document serves as a reference to try to maintain consistency across this projects,
 as well as helping rust newcomers getting up to speed by listing a few useful crates.
 
+## Disclaimer
+
+This is only recommendation-level stuff, based on our experience, not a blessing nor
+an indictment of libraries / patterns.
+
+YMMV, and so on (**especially** the `rustfmt` config).
+
 ## Common advice
 
 ### Avoid nightly
