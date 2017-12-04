@@ -62,7 +62,7 @@ We've got good experience with `diesel` (on a sqlite db).
 
 ### Serialization
 
-Prefer serde-based solutions if no IDL is available
+Prefer serde-based solutions if no definition language is available
 
 #### Protobuf
 
