@@ -53,6 +53,11 @@ you still have to parse manually. Avoid directly using `std::Args` directly.
 Use the `conservative_impl_trait` feature, which drastically improves compilation errors and should be in stable
 _soonish_.
 
+### Use Continuous integration
+
+Rust integrates unit testing, and the ecosystem has a lot of tools to check your code runs properly.
+See <resources/.travis.yml> for an example Travis CI configuration.
+
 ## Useful crates
 
 ### HTTP requests
