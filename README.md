@@ -13,6 +13,30 @@ YMMV, and so on (**especially** the `rustfmt` config).
 
 ## Common advice
 
+### Installation
+
+Use [rustup](https://rustup.rs/) to install rust, avoid OS packages (unless you
+know exactly what you're doing / you're @keruspe).
+
+#### Tooling
+
+`rustfmt` and `clippy` installation instructions tend to change from time to
+time, here's the latest instructions, but please check online to make sure it's
+still up-to-date.
+
+```sh
+# Install rustfmt
+rustup run nightly cargo install rustfmt-nightly
+
+# Install clippy
+rustup run nightly cargo install clippy
+```
+
+Intellij has good rust support, as well as VSCode, with the
+[vscode-rust](https://github.com/editor-rs/vscode-rust) extension.  The
+extension will install everything (including RLS, so no need to install it
+directly).
+
 ### Avoid nightly
 
 Try to stay in `stable` if possible. If you're forced to use `nightly`, please describe
